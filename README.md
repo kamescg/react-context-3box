@@ -12,7 +12,7 @@ React state management for 3Box decentralized identity and storage.
 ### Read/Write Request Log
 By default 3Box (3box.js) provides `get` and `set` methods that can be run without user consent or knowledge once a user has logged in. To inform users of reading/writing to personal storage, the request log tracks read and write requests. The requests include metadata like access type (public or private) and whether to access the primary profile or a space. 
 
-<img src="https://i.imgur.com/rZ4ACvI.png" alt="3Box Request Log Example" width="200px"/>
+<img src="https://i.imgur.com/rZ4ACvI.png" alt="3Box Request Log Example" width="300px"/>
 
 User's can review incoming requests and decide to either ignore, confirm or reject the requests.
 
